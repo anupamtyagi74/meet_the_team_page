@@ -19,6 +19,7 @@ ul {
   font-weight: 700;
   margin-bottom: 10px;
   text-transform: uppercase;
+  z-index: 1;
 }
 
 .site-heading h2 span {
