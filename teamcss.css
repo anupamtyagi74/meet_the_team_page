@@ -2,6 +2,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 body{
 background-image:url("bg.jpg");
+background-size:cover;
+background-position:center;
+width:100%;
+height:auto;
 }
 section {
     padding: 60px 0;
@@ -215,15 +219,7 @@ color: White;
 .team-area .social li.linkedin a {
   background-color: #1ab7ea;
 }
-#particles-js
-{
-background-image:url('bg.jpg');
-background-size:cover;
-background-position:center;
 
-width:100%;
-height:auto;
-}
 #particles-js
   {
     width:100%;
