@@ -241,6 +241,14 @@ height:auto;
 }
 .particles-js-canvas-el{
 position: fixed; top: 0; right: 0; bottom: 0; left: 0;}
+ .bg_img {
+            position: fixed;
+            height: 100vh;
+            width: auto;
+            z-index: 0;
+        }
+
+
 
 
 
