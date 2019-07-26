@@ -1,11 +1,11 @@
 h1, h2, h3, h4, h5, h6 {
 }
-body{
-background-image:url("bg.jpg");
-background-size:cover;
-background-position:center;
-width:100%;
-height:auto;
+#part {
+  position: fixed;
+  width: auto;
+  z-index: 0;
+  height: 102vh;
+  top: -15px;
 }
 section {
     padding: 60px 0;
