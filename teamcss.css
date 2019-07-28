@@ -31,7 +31,7 @@ ul {
 }
 
 .site-heading h2 span {
-  color: white;
+  color: White;
 }
 
 .site-heading h4 {
@@ -44,7 +44,7 @@ color: White;
 }
 
 .site-heading h4::before {
-  background: #ff5a6e none repeat scroll 0 0;
+  background: #66ffff none repeat scroll 0 0;
   bottom: 0;
   content: "";
   height: 2px;
@@ -55,7 +55,7 @@ color: White;
 }
 
 .site-heading h2 span {
-  color: #ff5a6e;
+  color: #66ffff;
 }
 
 .site-heading {
@@ -207,7 +207,7 @@ color: White;
 }
 
 .team-area .info span {
-  color: #ff5a6e;
+  color:#18a1fc;
   font-family: "Poppins",sans-serif;
   font-weight: 600;
   text-transform: uppercase;
