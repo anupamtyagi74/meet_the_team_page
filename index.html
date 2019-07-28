@@ -26,22 +26,26 @@
     </head>
     <body>
 <img id="part" src="bg.jpg">
-<div class="container_nav">
-            <ul id="gn-menu" class="gn-menu-main btn btn-outline-primary btn-circle">
+ <div class="container_nav">
+            <ul id="gn-menu" class="gn-menu-main btn btn-outline-primary">
                 <li class="gn-trigger">
                     <a class="gn-icon gn-icon-menu"><span>Menu</span></a>
-                    <nav class="gn-menu-wrapper">
+                    <nav class="gn-menu-wrapper" id="navbar">
+                        
                         <div class="gn-scroller">
 
                             <ul class="gn-menu">
 
-                                <li> .<a id="close" class="gn-icon btn btn-outline-primary close">x </a></li>
+                                <li><a id="close" class="gn-icon btn " onclick="closeNav()" style="display: inline-block; font-size: 5vh; float: right;" >x </a></li>
+                                <li><a></a></li>
                                 <li>
                                     <a class="gn-icon gn-icon-download">Home</a>
 
                                 </li>
                                 <li><a class="gn-icon gn-icon-cog">Events</a></li>
-                                <li><a class="gn-icon gn-icon-help">About US</a></li>
+                                <li><a class="gn-icon gn-icon-help">Sponsors</a></li>
+
+                                <li><a class="gn-icon gn-icon-help">About Us</a></li>
                                 <li><a class="gn-icon gn-icon-archive">Meet Our Team</a>
                                 </li>
                             </ul>
@@ -375,6 +379,15 @@
     <script src="gnmenu.js"></script>
     <script>
         new gnMenu(document.getElementById('gn-menu'));
+         function closeNav(){
+        var x=document.getElementById("navbar");
+        x.classList.remove("gn-open-all");
+        //     x.className = "gn-menu-wrapper";
+        // }
+        // else{
+        //     x.className = "gn-menu-wrapper";
+        // }
+    }
     </script>
     <div id="particles-js"></div>
     <script type="text/javascript" src="particle.js"></script>
